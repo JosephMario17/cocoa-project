@@ -1,0 +1,296 @@
+{% extends 'main.html' %}
+{% load static %}
+
+{% block content %}
+
+        <!-- page content -->
+        <div class="page-content">
+
+            <!-- Inner Banner -->
+            <section class="inner-banner">
+                <div class="titlebar-main">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-12">
+                                <h1 class="inner-page-title">ABOUT</h1>
+                            </div>
+                            <div class="col-lg-6 col-md-12 text-lg-right">
+                                <nav aria-label="breadcrumb" class="breadcrumb-section d-flex justify-content-center  justify-content-lg-end">
+                                    <ol class="breadcrumb">
+                                        <li class="breadcrumb-item"><a href="{% url 'home' %}">Kayode's Cocoa</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- banner end -->
+
+            <!-- progress -->
+            <section class="section-smt">
+                <div class="container">
+                    <div class="row expert-service align-items-lg-center align-items-md-end">
+                        <div class="col-md-12 col-lg-6">
+                            <img src="{% static 'images/services/services-14.jpg' %}" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-md-12 col-lg-6 pr-4 pr-md-0 mt-md-50 mb-md-50">
+                            <div class="section-title section-title-white">
+                                <!-- <h4 class="subheading">A Journey of Quality, Passion, and Purpose</h4> -->
+                                <h2>Crafting Cocoa Excellence, <strong><br> Rooted in Sustainability</strong></h2>
+                                <p class="pt-3">At Kayode's Cocoa, we are committed to delivering the finest cocoa products by working directly with local farmers who share our passion for quality and sustainability. Our mission is to bring premium cocoa to the global market while empowering farming communities in Nigeria.
+                                We believe in responsible cocoa production that supports both the environment and the people behind it. By partnering with farmers who practice sustainable farming techniques, we ensure that every cocoa bean we deliver is grown with care for the land and future generations. Our goal is to create exceptional cocoa products, from beans to butter, while making a positive impact on the industry and the communities we work with. <br>
+                                At Kayode's Cocoa, it’s more than just cocoa – it’s about nurturing a legacy of quality, sustainability, and growth.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- progress end -->
+
+            <!-- service -->
+            <section class="section-md bg-lightgrey">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="section-title text-center">
+                                <h4 class="subheading skincolor">OUR SERVICES</h4>
+                                <h2>A WIDE RANGE OF COCOA SOLUTIONS<strong><br> TAILORED TO YOUR NEEDS.</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="service-box service-style-1">
+                                <div class="service-thumbnail">
+                                    <div class="service-thumbnail-inner">
+                                        <img src="{% static 'images/services/services-20.jpg' %}" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="service-content">
+                                    <div class="service-inner">
+                                        <h3 class="service-box-title"><a href="{% url 'service-details' %}">Excellence in Every Batch</a></h3>
+                                        <div class="service-desc">
+                                            <p>With a rigorous quality assurance process, we guarantee excellence in every batch of cocoa we produce. From bean selection to final processing, we maintain the highest standards to ensure our products consistently meet the expectations of our global clientele.</p>
+                                        </div>
+                                        <div class="link-btn">
+                                            <a class="skincolor" href="{% url 'service-details' %}">Read more<i class="fa fa-arrow-circle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="service-box service-style-1">
+                                <div class="service-thumbnail">
+                                    <div class="service-thumbnail-inner">
+                                        <img src="{% static 'images/services/cocoa-blends.jpg' %}" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="service-content">
+                                    <div class="service-inner">
+                                        <h3 class="service-box-title"><a href="{% url 'service-details' %}">Superior Flavor and Quality</a></h3>
+                                        <div class="service-desc">
+                                            <p>Our cocoa products are known for their superior flavor, thanks to our meticulous selection process and quality control measures. Every bean is handpicked for its rich taste, ensuring that our customers receive the best cocoa products, from bean to bar.</p>
+                                        </div>
+                                        <div class="link-btn">
+                                            <a class="skincolor" href="{% url 'service-details' %}">Read more<i class="fa fa-arrow-circle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="service-box service-style-1">
+                                <div class="service-thumbnail">
+                                    <div class="service-thumbnail-inner">
+                                        <img src="{% static 'images/services/cocoa-banner6.jpeg' %}" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="service-content">
+                                    <div class="service-inner">
+                                        <h3 class="service-box-title"><a href="{% url 'service-details' %}">Innovation Meets Tradition</a></h3>
+                                        <div class="service-desc">
+                                            <p>At Kayode's Cocoa, we combine modern technology with traditional cocoa farming and processing methods. This blend allows us to maintain the authenticity of our cocoa products while enhancing efficiency throughout our production process.</p>
+                                        </div>
+                                        <div class="link-btn">
+                                            <a class="skincolor" href="{% url 'service-details' %}">Read more<i class="fa fa-arrow-circle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- service end -->
+
+            <!-- Appointment -->
+            <section class="get-appointment">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <div class="section-title text-center">
+                                <h4 class="subheading skincolor">CONNECT WITH US</h4>
+                                <h2 class="white-color">GET THE BEST ETHICALLY SOURCED<strong><br/> PREMIUM QUALITY COCOA</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Appointment end -->
+
+            <!-- Our Service -->
+            <section class="section-md bg-lightgrey">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="section-title text-center">
+                                <h4 class="subheading skincolor">WHY PEOPLE TRUST US</h4>
+                                <h2>WE BRING THE BEST OF NIGERIAN COCOA<strong><br/>TAILORED TO YOUR NEEDS TO YOU.</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-3 mb-4">
+                        <div class="col-md-4">
+                            <div class="iconbox iconbox-style-1">
+                                <div class="iconbox-inner">
+                                    <div class="iconbox-icon skincolor">
+                                        <!-- <i class="flaticon-icon flaticon-boy"></i> -->
+                                    </div>
+                                    <div class="iconbox-contents">
+                                        <div class="iconbox-title">
+                                            <h2>Premium Cocoa Products</h2>
+                                        </div>
+                                        <div class="iconbox-desc">
+                                            <p>Quality is at the heart of everything we do. We carefully select the finest cocoa beans to ensure a rich, bold flavor and unmatched quality in every product we offer. Whether you're looking for cocoa beans, cocoa powder, or cocoa butter, we maintain stringent quality control at every stage, from harvest to processing, to deliver premium products that meet the highest international standards.
+                                            Put simply, when you choose Kayode's Cocoa, you're choosing the best.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="iconbox iconbox-style-1">
+                                <div class="iconbox-inner">
+                                    <div class="iconbox-icon skincolor">
+                                        <!-- <i class="flaticon-icon flaticon-glasses"></i> -->
+                                    </div>
+                                    <div class="iconbox-contents">
+                                        <div class="iconbox-title">
+                                            <h2>Sustainably Sourced</h2>
+                                        </div>
+                                        <div class="iconbox-desc">
+                                            <p>At Kayode's Cocoa, we take pride in sourcing our cocoa directly from local farmers who are committed to sustainable and ethical farming practices. We work closely with these farmers to ensure that each cocoa bean is grown with respect for the land, minimizing environmental impact and promoting biodiversity. Our transparent supply chain guarantees that our cocoa is not only of the highest quality but also supports a sustainable future for farming communities.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="iconbox iconbox-style-1">
+                                <div class="iconbox-inner">
+                                    <div class="iconbox-icon skincolor">
+                                        <!-- <i class="flaticon-icon flaticon-eye-2"></i> -->
+                                    </div>
+                                    <div class="iconbox-contents">
+                                        <div class="iconbox-title">
+                                            <h2>A Legacy of Excellence</h2>
+                                        </div>
+                                        <div class="iconbox-desc">
+                                            <p>With years of experience in the cocoa industry, we have built a legacy of excellence. We combine traditional farming techniques with modern innovation to produce cocoa products that are both rich in flavor and sustainably produced. Our dedication to constant improvement and our passion for cocoa are what set us apart. We continue to innovate, delivering high-quality products that are trusted by businesses and consumers alike.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Our Service end -->
+
+            
+
+            <!-- team -->
+            <section class="section-md bg-lightgrey">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8 col-md-12">
+                            <div class="section-title text-center">
+                                <h4 class="subheading skincolor">MEET OUR TEAM OF PROFESSIONALS</h4>
+                                <h2>A DEDICATED TEAM COMMITTED TO <strong>QUALITY SUSTAINABILITY<br/> AND INNOVATION.</strong></h2>
+                                <p>We are proud to have a team of professionals who are passionate about bringing the finest cocoa to the world. Our team is composed of experienced experts, farmers, and innovators who work together to ensure the highest standards of quality and sustainability throughout every step of the cocoa production process.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="teambox align-items-center teambox-style-3 d-flex">
+                                <div class="teambox-thumbnail">
+                                    <img src="{% static 'images/team/musa.jpg' %}" class="img-fluid animation" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="teambox-content">
+                                        <div class="team-title">
+                                            <h4>Ibrahim Musa</h4>
+                                        </div>
+                                        <div class="team-position skincolor">Lead Farmer, Sustainable Practices</div>
+                                        <div class="blog-desc">
+                                            <p>With over 20 years of experience, Ibrahim Musa is a respected leader in his farming community.</p>
+                                        </div>
+                                        <span class="team-email">
+                                            <i class="skincolor labtechco-icon-mail-alt"></i><a href="#">Team@kayode.com</a>
+                                        </span>
+                                        <div class="team-member-social-links">
+                                            <ul class="team-social-links">
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col-lg-6 pt-md-30">
+                            <div class="teambox align-items-center teambox-style-3 d-flex">
+                                <div class="teambox-thumbnail">
+                                    <img src="{% static 'images/team/amina.jpg' %}" class="img-fluid animation" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="teambox-content">
+                                        <div class="team-title">
+                                            <h4>Amina Omolade</h4>
+                                        </div>
+                                        <div class="team-position skincolor">Head of Quality Control</div>
+                                        <div class="blog-desc">
+                                            <p>Amina Omolade is a second-generation cocoa farmer known for her attention to detail and passion for quality. </p>
+                                        </div>
+                                        <span class="team-email">
+                                            <i class="skincolor labtechco-icon-mail-alt"></i><a href="#">Team@kayode.com</a>
+                                        </span>
+                                        <div class="team-member-social-links">
+                                            <ul class="team-social-links">
+                                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- team end -->
+        </div>
+        <!-- page content End -->
+
+{% endblock content %}

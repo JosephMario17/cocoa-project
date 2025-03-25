@@ -1,0 +1,136 @@
+{% extends 'main.html' %} {% load static %} {% block content %}
+
+<!-- page content -->
+<div class="page-content">
+  <!-- Inner Banner -->
+  <section class="inner-banner">
+    <div class="titlebar-main">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-md-12">
+            <h1 class="inner-page-title">CUSTOM COCOA BLENDS</h1>
+          </div>
+          <div class="col-lg-6 col-md-12 text-lg-right">
+            <nav
+              aria-label="breadcrumb"
+              class="breadcrumb-section d-flex justify-content-center justify-content-lg-end"
+            >
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="{% url 'home' %}">Kayode's Cocoa</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                  Contact Us
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- banner end -->
+
+  <!-- Service Image -->
+  <div class="pt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="{% static 'images/services/services-25.jpg' %}"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div class="col-md-6">
+          <img
+            src="{% static 'images/services/services-24.jpg' %}"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Service Image end -->
+
+  <!-- Process -->
+  <div class="pt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4>Tailored Excellence for Your Unique Needs</h4>
+          <p>
+            At Kayode's Cocoa, we understand that every chocolate maker, bakery,
+            or cosmetic manufacturer has its own flavor profile and quality
+            requirements. That’s why we offer Custom Cocoa Blends—designed to
+            perfectly match your vision. Our expertise in cocoa sourcing,
+            processing, and blending allows us to create personalized cocoa
+            products that elevate your creations to a new level of excellence.
+          </p>
+          <h4>Our Process</h4>
+          <ul>
+            <li>
+              <strong>Consultation & Analysis:</strong> We begin by engaging with you to understand
+              your product needs, flavor preferences, and technical
+              specifications. Our team of experts will analyze your requirements
+              and share insights on optimal cocoa varieties, roasting levels, and
+              blend ratios.
+            </li>
+            <li>
+              <strong>Bean Selection:</strong> Based on the consultation, we source the finest
+              cocoa beans from our network of sustainable farms. We select beans
+              known for their unique flavor notes, ensuring a robust and versatile
+              foundation for your blend.
+            </li>
+            <li>
+              <strong>Precision Roasting & Fermentation:</strong> Our state-of-the-art roasting and
+              fermentation processes are carefully adjusted to enhance the natural
+              flavors of the selected cocoa beans. We work with controlled
+              parameters to achieve the desired balance of bitterness, sweetness,
+              and aromatic complexity.
+            </li>
+            <li>
+              <strong>Blending & Customization:</strong> With your specifications in hand, our
+              skilled team customizes the cocoa blend. We experiment with
+              different ratios, intensities, and additional flavor components (if
+              required) until we achieve the perfect profile tailored to your
+              product.
+            </li>
+            <li>
+              <strong>Quality Assurance:</strong> Every custom blend is subjected to rigorous
+              quality control. Our testing ensures that the cocoa meets
+              international standards for purity, consistency, and flavor
+              intensity, providing you with a product that you can trust.
+            </li>
+            <li>
+              <strong>Packaging & Delivery:</strong> Once finalized, your custom cocoa blend is
+              carefully packaged to preserve its freshness and flavor. We offer
+              flexible packaging options and efficient logistics to deliver your
+              product right on schedule.
+            </li>
+          </ul>
+          
+          <br>
+
+          <h4>Why Choose Our Custom Cocoa Blends?</h4>
+          <ul>
+            <li><strong>Expert Guidance:</strong> Benefit from our deep industry knowledge and personalized consultation.</li>
+            <br>
+            <li><strong>Tailored Quality:</strong> Each blend is crafted to meet your unique requirements, ensuring optimal performance in your end products.</li>
+            <br>
+            <li><strong>Sustainable Sourcing:</strong> Our commitment to ethical sourcing means every bean in your blend is harvested with care for the environment and local communities.</li>
+            <br>
+            <li><strong>Excellence:</strong> With rigorous quality control and testing, we ensure that every batch delivers the same superior flavor and consistency.</li>
+          </ul>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Process end -->
+
+  
+
+  {% endblock content %}
+</div>

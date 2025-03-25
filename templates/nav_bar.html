@@ -1,0 +1,97 @@
+ {% load static %}
+ <!-- page wrapper -->
+ <div class="page-wrapper">
+
+    <!-- Header Main Area -->
+    <header class="site-header header-style-1">
+        <div class="pre-header">
+            <div class="container">
+                <div class="d-flex justify-content-between  align-items-center">
+                    <div class="pre-header-left">
+                        <ul class="top-contact">
+                            <li><i class="optico-icon-location-pin"></i>Plot 265 ChesterField, Nigeria </li>
+                        </ul>
+                    </div>
+                    <div class="pre-header-right">
+                        <ul class="top-contact d-inline">
+                            
+                        </ul>
+                        <ul class="social-icons d-inline">
+                            <li><a target="_blank" href="#" data-tooltip="Facebook"><i class="optico-icon-facebook"></i></a></li>
+                            <li><a target="_blank" href="#" data-tooltip="Twitter"><i class="optico-icon-twitter"></i></a></li>
+                            <li><a target="_blank" href="#" data-tooltip="Flickr"><i class="optico-icon-flickr"></i></a></li>
+                            <li><a target="_blank" href="#" data-tooltip="LinkedIn"><i class="optico-icon-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="site-header-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex align-items-center">
+                            <div class="site-branding flex-grow-1">
+                                <a href="{% url 'home' %}">
+                                    <img class="logo-img" alt="optico" src="{% static 'images/logo-dark.png' %}">
+                                </a>
+                            </div>                                
+                            <div class="site-navigation ml-auto">
+                                <nav class="main-menu navbar-expand-xl navbar-light">
+                                    <div class="navbar-header">
+                                        <!-- Togg le Button -->
+                                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                            <span class="fa fa-bars"></span>
+                                        </button>
+                                    </div>
+                                    <div class="collapse navbar-collapse clearfix" id="navbarSupportedContent">
+                                        <ul class="navigation clearfix">
+                                            <li class="dropdown "><a href="{% url 'home' %}">Home</a>
+                                                <ul>
+                                                    
+
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="{% url 'about' %}">About</a>
+                                                <ul>
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li class="dropdown">
+                                                <a href="{% url 'services' %}">Services</a>
+                                                <ul>
+                                                    <li><a href="{% url 'custom' %}">Custom Cocoa Blends</a></li>
+                                                    <li><a href="{% url 'bulk' %}">Bulk Supply and Distribution</a></li>
+                                                    <li><a href="{% url 'processing' %}">Cocoa Processing Consulting</a></li>
+                                                    <li><a href="{% url 'sourcing' %}">Cocoa Sourcing</a></li>
+                                                    <li><a href="{% url 'training' %}">Sustainable Farming Training</a></li>
+                                                    <li><a href="{% url 'service-details' %}">Service Detail</a></li>
+                                                </ul>
+                                            </li>
+                                            <!-- <li><a href="before-after.html">Before & After</a></li> -->
+                                            <li class="dropdown">
+                                                <!-- <a href="#">Blog</a> -->
+                                                <ul>
+                                                    
+                                                </ul>
+                                            </li>
+                                            <li><a href="{% url 'contact' %}">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                            <div class="menu-right-box d-flex align-items-center">
+                                <!-- <a href="#" class="search-btn"><i class="optico-icon-search-1"></i></a> -->
+                                <!-- <div class="header-button">
+                                    <a href="#" class="btn btn-outline">APPOINTMENT</a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Main Area End Here -->
+

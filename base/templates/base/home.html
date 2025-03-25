@@ -1,0 +1,378 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+
+        <!-- page content -->
+        <div class="page-content">
+
+            <!-- Banner -->
+            <section class="home-banner home-slider-first">
+                <div id="Bannerslider" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="img-fluid" src="{% static 'images/banner/cocoa-banner3.jpg' %}" alt="..." />
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-7 col-md-7 col-sm-8  col-8">
+                                            <span class="shapewrapper-inner anim-1">KAYODE'S COCOA</span>
+                                            <h1 class="anim-2">From Farm to Flavor <br/><strong>Experience the Finest Cocoa</strong></h1>
+                                            <div class="tagline anim-3 d-none d-sm-block">Bringing the Best of Nigerian Cocoa to You</div>
+                                            <div class="d-none d-sm-block mt-4"><a href="{% url 'contact' %}" class="btn anim-3">Contact Us </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="{% static 'images/banner/cocoa-banner.jpg' %}" alt="...">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-7 col-md-7  col-sm-8 col-8">
+                                            <span class="shapewrapper-inner anim-1">KAYODE'S COCOA</span>
+                                            <h1 class="anim-2">From Farm to Flavor <br/><strong>Experience the Finest Cocoa</strong></h1>
+                                            <div class="tagline anim-3 d-none d-sm-block">Bringing the Best of Nigerian Cocoa to You</div>
+                                            <div class="d-none d-sm-block mt-4"><a href="{% url 'contact' %}" class="btn anim-3">Contact Us </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="{% static 'images/banner/cocoa-banner5.jpg' %}" alt="...">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-7 col-md-7  col-sm-8 col-8">
+                                            <span class="shapewrapper-inner anim-1">KAYODE'S COCOA</span>
+                                            <h1 class="anim-2">From Farm to Flavor <br/><strong>Experience the Finest Cocoa</strong></h1>
+                                            <div class="tagline anim-3 d-none d-sm-block">Bringing the Best of Nigerian Cocoa to You</div>
+                                            <div class="d-none d-sm-block mt-4"><a href="{% url 'contact' %}" class="btn anim-3">Contact Us </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img class="img-fluid" src="{% static 'images/banner/logo-dark2.jpg' %}" alt="...">
+                            <div class="carousel-caption">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-7 col-md-7  col-sm-8 col-8">
+                                            <span class="shapewrapper-inner anim-1">KAYODE'S COCOA</span>
+                                            <h1 class="anim-2">From Farm to Flavor <br/><strong>Experience the Finest Cocoa</strong></h1>
+                                            <div class="tagline anim-3 d-none d-sm-block">Bringing the Best of Nigerian Cocoa to You</div>
+                                            <div class="d-none d-sm-block mt-4"><a href="{% url 'contact' %}" class="btn anim-3">Contact Us </a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#Bannerslider" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#Bannerslider" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </section>
+            <!-- Banner End -->
+
+            <!-- Features -->
+            <section class="intro-section bg-lightgrey">
+                <div class="container">
+                    <div class="row no-gutters bg-white box-shadow-01">
+                        <div class="col-md-3 iconbox-border">
+                            <div class="iconbox iconbox-style-3">
+                                <div class="iconbox-inner">
+                                    <div class="iconbox-icon skincolor">
+                                        <!-- <i class="flaticon-icon flaticon-eye"></i> -->
+                                    </div>
+                                    <div class="iconbox-contents">
+                                        <div class="iconbox-title">
+                                            <h2>Premium Cocoa Products</h2>
+                                        </div>
+                                        <div class="iconbox-desc">
+                                            <p>Our cocoa products are sourced from the finest farms, ensuring a rich, aromatic experience in every bite. From raw cocoa beans to premium cocoa powder and butter, we guarantee top-tier quality for every need.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 iconbox-border">
+                            <div class="iconbox iconbox-style-3">
+                                <div class="iconbox-inner">
+                                    <div class="iconbox-icon skincolor">
+                                        <!-- <i class="flaticon-icon flaticon-testing-glasses"></i> -->
+                                    </div>
+                                    <div class="iconbox-contents">
+                                        <div class="iconbox-title">
+                                            <h2>Sustainably Sourced</h2>
+                                        </div>
+                                        <div class="iconbox-desc">
+                                            <p>We are committed to supporting sustainable farming practices, ensuring that every cocoa bean is grown with care for the environment and local communities. By partnering with ethical farms, we help preserve the land and promote fair trade.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 iconbox-border">
+                            <div class="iconbox iconbox-style-3">
+                                <div class="iconbox-inner">
+                                    <div class="iconbox-icon skincolor">
+                                        <!-- <i class="flaticon-icon flaticon-glasses"></i> -->
+                                    </div>
+                                    <div class="iconbox-contents">
+                                        <div class="iconbox-title">
+                                            <h2>Custom Cocoa Solutions</h2>
+                                        </div>
+                                        <div class="iconbox-desc">
+                                            <p>Whether you need a custom cocoa blend or bulk supplies for your business, our team works closely with you to deliver the perfect solution. From consultation to final product, we ensure quality at every step.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="iconbox iconbox-style-3">
+                                <div class="iconbox-inner">
+                                    <div class="iconbox-icon skincolor">
+                                        <!-- <i class="flaticon-icon flaticon-contact-lens-3"></i> -->
+                                    </div>
+                                    <div class="iconbox-contents">
+                                        <div class="iconbox-title">
+                                            <h2>Empowering Communities</h2>
+                                        </div>
+                                        <div class="iconbox-desc">
+                                            <p>By partnering with local farmers in Nigeria, we not only source the highest-quality cocoa but also contribute to economic growth and community development. Every purchase helps empower farmers and their families.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Features end -->
+
+            <!-- Welcome -->
+            <section class="bg-lightgrey welcome-company">
+                <div class="container">
+                    <div class="row align-items-lg-center align-items-md-end">
+                        <div class="col-md-12 col-lg-6">
+                            <img src="{% static 'images/cocoa-image2.webp' %}" class="img-fluid" alt="" />
+                        </div>
+                        <div class="col-md-12 col-lg-6 mt-sm-30 pb-50">
+                            <div class="section-title mt-md-50">
+                                <h4 class="subheading skincolor">WELCOME TO KAYODE'S COCOA</h4>
+                                <h2>WHERE WE CELEBRATE THE RICHNESS OF COCOA. <strong>Discover the Finest Cocoa – From Farm to Flavor</strong></h2>
+                            </div>
+                            <p>Our passion is to deliver the finest quality cocoa products sourced directly from sustainable farms around the world.</p>
+                            <p>With a commitment to sustainability, quality, and craftsmanship, we bring the best cocoa experience to your doorstep.</p>
+                            <div class="sing-owner d-flex">
+                                <div class="sing">
+                                    <!-- <img src="{% static 'images/signature.png' %}" class="img-fluid" alt="" /> -->
+                                </div>
+                                <div class="owner-author">
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Welcome end -->
+
+            <!-- About Vision -->
+            <section class="section-md">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 pr-4">
+                            <div class="section-title with-lead">
+                                <h4 class="subheading skincolor">Nurturing Sustainable Cocoa, Crafting a Flavorful Future</h4>
+                                <h2> From Nigeria’s Rich Cocoa Farms <strong><br/> To the World’s Finest Creations</strong></h2>
+                                <div class="lead">At Kayode's Cocoa, we are dedicated to harnessing the rich flavor and natural goodness of cocoa to create premium products. Our cocoa is not only delicious but also packed with health-boosting antioxidants.</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="iconbox iconbox-style-2">
+                                        <div class="iconbox-inner">
+                                            <div class="iconbox-contents">
+                                                <div class="iconbox-title">
+                                                    <h2>Quality Assurance and Testing</h2>
+                                                </div>
+                                                <div class="iconbox-desc">
+                                                    <p>Every batch of cocoa we produce undergoes strict quality testing to ensure it meets our high standards.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="iconbox iconbox-style-2">
+                                        <div class="iconbox-inner">
+                                            <div class="iconbox-contents">
+                                                <div class="iconbox-title">
+                                                    <h2>State-of-the-Art Equipment</h2>
+                                                </div>
+                                                <div class="iconbox-desc">
+                                                    <p>We use cutting-edge equipment to process our cocoa, ensuring the highest quality and flavor preservation.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="row">
+                                <div class="col-md-6">
+                                    <div class="iconbox iconbox-style-2">
+                                        <div class="iconbox-inner">
+                                            <div class="iconbox-contents">
+                                                <div class="iconbox-title">
+                                                    <h2></h2>
+                                                </div>
+                                                <div class="iconbox-desc">
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="iconbox iconbox-style-2">
+                                        
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="link-btn">
+                                <a class="skincolor" href="{% url 'service-details' %}">Read more<i class="fa fa-arrow-circle-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mt-md-30 text-md-center mb-lg-30">
+                            <img src="{% static 'images/bulk3.jpg' %}" class="img-fluid img-shadow" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- About Vision end -->
+
+            <!-- Our Service -->
+            <section class="section-md">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-8">
+                            <div class="section-title text-center">
+                                <h4 class="subheading skincolor">OUR SERVICES</h4>
+                                <h2>A WIDE RANGE OF COCOA SOLUTIONS<strong><br/> TAILORED TO YOUR NEEDS.</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row pt-3">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="service-box service-style-1">
+                                <div class="service-thumbnail">
+                                    <div class="service-thumbnail-inner">
+                                        <img src="{% static 'images/services/cocoa-blends.jpg' %}" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="service-content">
+                                    <div class="service-inner">
+                                        <h3 class="service-box-title"><a href="{% url 'custom' %}">Custom Cocoa Blends</a></h3>
+                                        <div class="service-desc">
+                                            <p>Our expert team works closely with you to create custom cocoa blends tailored to your unique needs, whether you're in the chocolate-making, baking, or cosmetics industry.</p>
+                                        </div>
+                                        <div class="link-btn">
+                                            <a class="skincolor" href="{% url 'custom' %}">Read more<i class="fa fa-arrow-circle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="service-box service-style-1">
+                                <div class="service-thumbnail">
+                                    <div class="service-thumbnail-inner">
+                                        <img src="{% static 'images/services/services-17.jpg' %}" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="service-content">
+                                    <div class="service-inner">
+                                        <h3 class="service-box-title"><a href="{% url 'bulk' %}">Bulk Supply and Distribution</a></h3>
+                                        <div class="service-desc">
+                                            <p>We provide bulk cocoa products for businesses of all sizes, offering a seamless supply chain from farm to your doorstep. Whether you need cocoa beans, powder, or butter in large quantities, our logistics team ensures timely delivery and consistent quality.</p>
+                                        </div>
+                                        <div class="link-btn">
+                                            <a class="skincolor" href="{% url 'bulk' %}">Read more<i class="fa fa-arrow-circle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="service-box service-style-1">
+                                <div class="service-thumbnail">
+                                    <div class="service-thumbnail-inner">
+                                        <img src="{% static 'images/services/cocoa-consult.jpg' %}" class="img-fluid" alt="">
+                                    </div>
+                                </div>
+                                <div class="service-content">
+                                    <div class="service-inner">
+                                        <h3 class="service-box-title"><a href="{% url 'processing' %}">Cocoa Processing Consulting</a></h3>
+                                        <div class="service-desc">
+                                            <p>Looking to start or improve your cocoa business? Our consulting services provide expert advice on everything from cocoa processing to product development and market strategy</p>
+                                        </div>
+                                        <div class="link-btn">
+                                            <a class="skincolor" href="{% url 'processing' %}">Read more<i class="fa fa-arrow-circle-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Our Service end -->
+
+            <!-- Appointment -->
+            <section class="get-appointment">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <div class="section-title text-center">
+                                <h4 class="subheading skincolor">CONNECT WITH US</h4>
+                                <h2 class="white-color">GET THE BEST ETHICALLY SOURCED<strong><br/> PREMIUM QUALITY COCOA</strong></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-lightgrey appointment-from">
+                <div class="container">
+                    <div class="row  box-shadow-02">
+                        <div class="col-lg-4 appointment-image">
+                        </div>
+                        <div class="col-lg-8 appointment-inner">
+                            <h3>Get In Touch With Us Today. </h3>
+                            <p>From Farm to Flavor: Crafting the Finest Cocoa with Sustainability and Passion </p>
+
+                           {% include 'base/form.html' %}
+                           
+                        </div>
+                    </div>
+                </div> 
+            </section>
+            <!-- Appointment end -->
+
+    </div>
+    <!-- page content End -->
+
+    <!-- page wrapper End -->
+{% endblock content %}
+ 
